@@ -1,0 +1,61 @@
+MBMMMMMMMMMMMMMM8M8MMMMM8M8M8MM8888M8M8M8MMBMMMM8MMM88888M88WM8M88MB8MMMMMMMMMM
+MBBB@B@B@BBB@B@B@B@B@B@B@B@B@B@B@BBB@B@B@B@B@B@B@B@B@@@B@B@BBM@BBM@B@B@B@B@B@B@
+MB8MMM8MMM8M8M8M8M888M8M8M8M8M8M8M8MMM8MMM00X02aX0Z8MMMMMM8M8M8M88MMMMMMMMMMMMM
+MMM8M8M8M8M8M8M8M8M8M8M8MMM8M8M8M8MMMMMXS27;i:....:r2W@B@B@MMMM8MWM8MMMMMMMMMM@
+MB8M8M8MMM8MMMMMMM8MMM8M8M8M8M8M8M8M8027:.           7S2222X8BM@MMMMMMMMMMMMMMB
+MMM8M8MMM8M8MMMMMMM8MMM8M8M8M8M8MMM027:           .   ...  .:r2XMB@MBMMMMMMMMM@
+8B8MMM8M8M8M8M8MMM8M8M8M8M8M8MMMMW27i:           . ...        .:iXBBMMMMMMMMMMB
+MMM8M8M8M8M8MMMMM8M8M8M8M8M8MMM8Sri:::.   .     . ................2B@MBMMMMMMM@
+8B8M8M8M8M8MMM8M8M8M8M8M8M8MMB07iii:.. ......:.i::i:..     ::rii:. 2BBMMMMMMMMB
+MMM8M8M8M8M8M8M8M8M8M8M8M8MM@X;::........ .:ii7777277ri..   .:;ii:. 2@BMMMMMMM@
+MB8MMMMMMM8M8M8M8M8M8M8M8MM@Mi...... .    .:727222222277i.    .i::.. SBBMMMMMMM
+MMM8M8M8M8M8M8M8M8M8MWM8M8MB2 .  ..      :2X0X0Xa22227777;:   .:....  ZB@MMMMM@
+8B8M8M8M8M8M8M8M8M8M8M8M8MBM.   ..     .ra08ZZ0XS2727777r;:.  .:..... .@BBMMMMB
+MM88M8M8M8M8M8M8M8M8M8M8MM@7 ...     .7XXX0XXSS22277777rrii...:.... .  7@BBMMMB
+8BW88M8M8M8M8M888M888M8MM@S  ..  ..i7WBM8WX0aa227277rrriii::...... . . .Z@MMMMB
+MMMWM888M888M8M888MWM8M8@W:     ;72XMW88MM8Z00X2277rrii::::....       . 7B@MMMB
+ZBW88M88W888WM8MW8WMW88B8r.    7a000X0Xa2277r72S2777i:::.:....       .  :@BMMMM
+8M8WMW88MWM88W88M88888M87..   70Z002SSXXX27r:..:iiiii::.:...          . .B@MMMB
+WBW88M8M8MW8W88M88W8WMZS:... iZWW8X27rr77222r:.....:.:::.:..       . ... 0@MMMB
+8B8W8W88MW8Z8W8W8W8ZM0Sr.....0MZMW0227;.    ........:.:.:....         .  2@MMMB
+ZBZ8W8W888W8W8W8WMZWZ02:....iM08WW0ZX00X2:     ........:....          .. 2BBMMM
+8BWZ8Z88MW8W8W8W8W8Z0Xr.....70Z080W0X27rr::..    ...:........         .  2@MMMB
+0BZWZ8W8Z8Z8Z8WWZW000S.. ..:20XX2000aS227r::.....:::..........         ..2BBMMM
+WMWZWZ8Z8W8Z8Z8WW00007... .:SXXSS2XXXaX222277;rr777i....    .         ...2@MMM@
+WBW8WM888M888M88WWWZ2i.....i2X2XSS2SS227r;:::7a0XS7i...... .       . ...:8MM88B
+WMWZ808WW0W0Z0W00a0S7.. . .i22S222777ri::. i88BBMX7i:::......         ..2BM0Z0B
+SMXXXXXXXXSXSXSa2S22:  .   i7272777;::.... 7W022S27r:..:::.::ii.       .M@88Z8M
+XX22XSaXXXaa0XXSX0a7.      :72277r:.....:::.  .:rii:i:.:iiiiiri       .r@BBMMM@
+0@Z8W88M8M8M8M8M8MX7.      .722777::...:72227i.  ....:..:iir77.      :iaB@MMMMB
+8@WZ8W8W8Z8WWZW0W82i        i7777i:..   .:iii;i:........:::i7:      r228BMMMMM@
+ZB0WZ8Z8WWZWZW00X87:  .     .:;r:...:727..........::.....::;:       2WXBMMMMMMB
+ZM00W0WZ8ZZ0Z000ZX7. ..       :i:::i772X2777;::..   ....:::.        78MMMMM8MMB
+0B0Z0Z0Z0Z000W0Z8Xi. .         :ir77777r;77277i:.....::::i.         rBBM8M8M8MB
+0M00Z0W000Z0Z0ZZM2:..           .722777:.....::::.::::::.           70M8888W8W@
+0B000Z0Z00000WZWZr...            .722277i:.. ....:::..              :XM@MM8MW8B
+0M00Z0Z0Z0W088027::..              .777rrii:::::..                  .i2SWMBMMZ@
+0M0W0Z0Z08WZa77XS;:..                ....:::::..                      ...iii2BB
+0MZ0W0Z0X227rr27Xi:..                   ..... .                       ..... 7M@
+0MaS227222202M02ii..               . . . . . .                         . ...:72
+277222M8M88S2a272:..               ..........                          .i..  .r
+2ZXWM@BB228277i::i..   .           ........... .....                    iX07i..
+XX2XZ08S77777i. ..:.  .             ...............                      :W8BB@
+0@M8ZW7..rri:: .::..   .            .::....:::.:....                      7BX22
+772S8WSi. :::.  ..:..   .     ...     iiiiiii::::....                      i777
+r7227S7.2Zri..  ...:..   .     ...     i7rii:i:i:....                      .222
+77SMX7BBMB@2.   . ....  .       ...     i7riiii:::...                       72S
+7ZM@BX.2BM8S:  ... ...     .     ...     irri;ii::::.                       .0B
+8BMM@B2 2M8a7  ...  . .           .:.     r7rrrii::i:    ..                  iB
+2S2228B2iSM2r. ...   .             .:.    .7r7rr;i:i.    .:.                 .B
+8M2222BM7:2S2. .:.                  .:.    :777;r::i.    ir.                  M
+2M@SraM@SriSai  ..                 . .:.   .r77ri:ii.    77. .                2
+rr@MS72287:7Xr. ...                 . :.    iirii:ri.   :77:  .               r
+222227rr7a7r::.. ..                ....:.   :7ri:i7r    i7ii.                 7
+77rrri:.i77r:......                 .. .:   .rriii7i.   iiiii.                2
+i777r:.:::........                  .: .:.  .ri;ii7r   .:iiiii..              8
+77777iii:irr:::...                   ...i.  .rrir:77. ..iiriiii..             0
+r27277722227......                   ...:.  .;::::72. .::rrriii;:.  .         a
+72777r22S27i:   ...                    .:.  .i::i:i:. .:ir7r;irir:. .         W
+77ii:707......   .                  .  ..   :ri;ri:.   .irrri;i;;ri.          M
+22r:.r2...  .                      .:  ::  .i:r72i.    ..:i;riii;ir.          8
+7272:..:7i ... .                   ... :  .77::7:ii:.  r7r:iir;rii:...        2

@@ -1,0 +1,116 @@
+<Input@BoxLayout>:
+	textLabel: ''
+	textInput: ''
+	textInput_id: textInput_id
+	Label:
+		size_hint: .3, 1
+		text: root.textLabel
+	TextInput:
+		id: textInput_id
+		on_text: root.textInput = self.text
+
+<OutputPopup>:
+	title: 'OUTPUT'
+	BoxLayout:
+		orientation: 'vertical'
+		Button:
+			font_size: 12
+			text: root.output
+			on_press: root.dismiss()
+
+<TichChapGUI>:
+	lenX: lenX
+	lenH: lenH
+	posX: posX
+	posH: posH
+	varX1: X1
+	varX2: X2
+	varX3: X3
+	varX4: X4
+	varX5: X5
+	varX6: X6
+	varX7: X7
+
+	varH1: H1
+	varH2: H2
+	varH3: H3
+	varH4: H4
+	varH5: H5
+	varH6: H6
+	varH7: H7
+	canvas:
+		Color:
+			rgba: 1,0,1,1
+		Rectangle:
+			size: self.size
+			pos: self.pos
+	orientation: 'vertical'
+	GridLayout:
+		id: layouta
+		cols: 2
+		Input:
+			id: lenX
+			textLabel: 'lenX'
+		Input:
+			id: lenH
+			textLabel: 'lenH'
+		Input:
+			id: posX
+			textLabel: 'PosX'
+		Input:
+			id: posH
+			textLabel: 'PosH'
+		Input:
+			id: X1
+			textLabel: 'X1'
+		Input:
+			id: H1
+			textLabel: 'H1'
+		Input:
+			id: X2
+			textLabel: 'X2'
+		Input:
+			id: H2
+			textLabel: 'H2'
+		Input:
+			id: X3
+			textLabel: 'X3'
+		Input:
+			id: H3
+			textLabel: 'H3'
+		Input:
+			id: X4
+			textLabel: 'X4'
+		Input:
+			id: H4
+			textLabel: 'H4'
+		Input:
+			id: X5
+			textLabel: 'X5'
+		Input:
+			id: H5
+			textLabel: 'H5'
+		Input:
+			id: X6
+			textLabel: 'X6'
+		Input:
+			id: H6
+			textLabel: 'H6'
+		Input:
+			id: X7
+			textLabel: 'X7'
+		Input:
+			id: H7
+			textLabel: 'H7'
+
+	Label:
+		size_hint: 1, .3
+		text: root.output
+	BoxLayout:
+		size_hint: 1, .1
+		Button:
+			text: 'Execute'
+			on_press: root._show_output()
+		Button:
+			text: 'Reset'
+			on_press: root._reset()

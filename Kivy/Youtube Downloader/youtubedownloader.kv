@@ -1,0 +1,150 @@
+#:set HEIGHT_VIDEO_INFO 80
+#:set HEIGHT_BUTTON 50
+
+<MyButton@Button>:
+	background_normal: 'assets/image/bg_btn.png'
+
+<YoutubeDisplayLayout>:
+	size_hint: 1, None
+	height: HEIGHT_VIDEO_INFO
+
+<YoutubeInfoDownload>:
+	canvas.before:
+		Rectangle:
+			pos: self.pos
+			size: self.size
+			source: 'assets/image/background.png'
+
+<ScrollViewInfo@ScrollView>:
+	canvas.before:
+		Color:
+			rgba: .5, .5, .5, .5
+		Rectangle:
+			pos: self.x + 1, self.y + 1
+			size: self.width - 1, self.height - 1
+<TitleLabel@Label>:
+	canvas.before:
+		Color:
+			rgba: .5, .5, 1, .5
+		Rectangle:
+			pos: self.x + 1, self.y + 1
+			size: self.width - 1, self.height - 1
+
+<Root>:
+	# canvas.before:
+	# 	Rectangle:
+	# 		pos: self.pos
+	# 		size: self.size
+	# 		source: 'assets/image/background.png'
+	BoxLayout:
+		size_hint: 3, 1
+		orientation: 'vertical'
+		Label:
+			id: _status_lbl
+		BoxLayout:
+			size_hint: 1, .8
+			TextInput:
+				id: _text_input
+			MyButton:
+				size_hint: .15, 1
+				text: 'Lấy Link'
+				on_release: root.getLink()
+			MyButton:
+				size_hint: .15, 1
+				text: 'Dán'
+				on_release: root.pasteClipboard()
+			MyButton:
+				size_hint: .15, 1
+				text: 'Xóa Sạch'
+				on_release: root.clearAll()
+			MyButton:
+				size_hint: .15, 1
+				text: 'Cài Đặt'
+				on_release: app.open_settings()
+		ScrollView:
+			size_hint: 1, 5
+			do_scroll_x: False
+			BoxLayout:
+				id: _all_videos_box
+				orientation: 'vertical'
+				size_hint: 1, None
+				height: len(self.children) * HEIGHT_VIDEO_INFO
+		ChangeNameBar:
+			id: _change_video_name_input
+			size_hint: 1, .8
+
+	BoxLayout:
+		canvas.before:
+			Color:
+				rgba: .3, .3, .3, 1
+			Rectangle:
+				pos: self.pos
+				size: self.size
+		orientation: 'vertical'
+		BoxLayout:
+			orientation: 'vertical'
+			size_hint: 1, .5
+			TitleLabel:
+				size_hint: 1, .5
+				text: 'Tải Tất Cả'
+			GridLayout:
+				cols: 2
+				MyButton:
+					text: 'Video 720p'
+					font_size: 12
+					on_release: root.downloadAll('video', '1280x720')
+				MyButton:
+					text: 'Video 360p'
+					font_size: 12
+					on_release: root.downloadAll('video', '640x360')
+				MyButton:
+					text: 'Video 240p'
+					font_size: 12
+					on_release: root.downloadAll('video', '320x240')
+				MyButton:
+					text: 'Audio 128kbs'
+					font_size: 12
+					on_release: root.downloadAll('audio', '128k')
+		BoxLayout:
+			orientation: 'vertical'
+			TitleLabel:
+				size_hint: 1, .2
+				text: 'Tải Từng Mục'
+			BoxLayout:
+				BoxLayout:
+					orientation: 'vertical'
+					Label:
+						size_hint: 1, .2
+						text: 'Video'
+					ScrollViewInfo:
+						do_scroll_x: False
+						BoxLayout:
+							id: _video_download_box
+							orientation: 'vertical'
+							size_hint: 1, None
+							height: len(self.children) * HEIGHT_BUTTON
+				BoxLayout:
+					orientation: 'vertical'
+					Label:
+						size_hint: 1, .2
+						text: 'Audio'
+					ScrollViewInfo:
+						do_scroll_x: False
+						BoxLayout:
+							id: _audio_download_box
+							orientation: 'vertical'
+							size_hint: 1, None
+							height: len(self.children) * HEIGHT_BUTTON
+		BoxLayout:
+			BoxLayout:
+				orientation: 'vertical'
+				TitleLabel:
+					size_hint: 1, .2
+					text: 'Danh Sách Download'
+				ScrollViewInfo:
+					do_scroll_x: False
+					BoxLayout:
+						id: _queue_download_box
+						orientation: 'vertical'
+						size_hint: 1, None
+						height: len(self.children) * HEIGHT_BUTTON
